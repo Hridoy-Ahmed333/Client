@@ -1,0 +1,69 @@
+.home-page
+  height: 100vh
+  max-height: 100vh
+  overflow: hidden
+  width: 100%
+  background-color: #181818
+
+  .container
+    max-width: 100%
+
+    .header
+      .h3
+        color: rgba(224, 224, 224, 0.9)
+
+    .buttons
+      display: flex
+      justify-content: center
+
+      button, a
+        font-size: 12px
+        font-weight: 400
+        font-family: 'Poppins', sans-serif
+        max-height: 35px
+
+    .land-container
+      display: flex
+      justify-content: center
+      align-items: center
+      height: 100%
+
+      .land-cards
+        width: 96%
+        height: calc(100vh - 80px)
+        border-radius: 15px
+        background-color: #222831
+        box-shadow: rgba(225, 225, 225, 0.36) 0 10px 36px 0, rgba(225, 225, 225, 0.26) 0 0 0 1px
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        .land-nav
+          width: fit-content !important
+          height: fit-content
+          background-color: #393E46
+          border-radius: 25px
+          box-shadow: rgba(255, 255, 255, 0.411) 0px 2px 8px 0px
+
+          .nav-item
+            a
+              text-decoration: none
+
+            button
+              min-width: 120px
+              border-radius: 25px
+              color: #FFD369
+              font-family: 'Poppins', sans-serif
+              font-size: 13px
+              font-weight: 300
+              margin-right: 5px
+              margin-left: 5px
+              -webkit-transition: background-color 1s ease-out
+              -moz-transition: background-color 1s ease-out
+              -o-transition: background-color 1s ease-out
+              transition: background-color 1s ease-out
+
+            .active
+              font-weight: 500
+              color: #ffd15d
+              background-color: #121212
